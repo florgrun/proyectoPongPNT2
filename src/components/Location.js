@@ -30,8 +30,8 @@ export default function Ubicacion() {
 
       if (geocode.length > 0) {
         let info = geocode[0];
-        //console.log("Provincia:", info.region);
-        //console.log("País:", info.country);
+        console.log("Provincia:", info.region);
+        console.log("País:", info.country);
         setUbicacionInfo(info);
       }
     }

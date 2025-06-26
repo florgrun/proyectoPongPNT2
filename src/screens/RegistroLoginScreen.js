@@ -30,7 +30,19 @@ export default function RegistroLoginScreen() {
     { username: 'PedroPalotes', email: 'pedro@pepepe.com', password: '123' },
     { username: 'MonicaMusical', email: 'monica@cine.com', password: '123' },
     { username: 'VictorBelico', email: 'victor@guerra.com', password: '123' },
-  ];
+    { username: 'LunaRoja', email: 'luna@roja.com', password: '123' },
+    { username: 'CarlosFuria', email: 'carlos@furia.com', password: '123' },
+    { username: 'MartaSol', email: 'marta@sol.com', password: '123' },
+    { username: 'PedroOscuro', email: 'pedro@oscuro.com', password: '123' },
+    { username: 'AndreaViento', email: 'andrea@viento.com', password: '123' },
+    { username: 'SantiagoRayo', email: 'santiago@rayo.com', password: '123' },
+    { username: 'FlorVerde', email: 'flor@verde.com', password: '123' },
+    { username: 'NicoHielo', email: 'nico@hielo.com', password: '123' },
+    { username: 'JuliaTrueno', email: 'julia@trueno.com', password: '123' },
+    { username: 'TomasFuego', email: 'tomas@fuego.com', password: '123' },
+    { username: 'ValenArena', email: 'valen@arena.com', password: '123' }
+]
+;
 
   const handleLogin = () => {
     try {
